@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<View layout='vertical' height='Ti.UI.SIZE'>
+			<Label class='row-primary' onClick='createViews'>Create views... poorly</Label>
+			<Label class='row-primary' onClick='createViewsWithDict'>Create views</Label>
+			<Label class='row-secondary' onClick='updateViews'>Update views via property sets</Label>
+			<Label class='row-secondary' onClick='updateViewsApplyProperties'>Update views via applyProperties</Label>
+			<Label class='row-primary' onClick='populateTableViewSequential'>Populate a table</Label>
+			<Label class='row-primary' onClick='populateTableViewEnMasse'>Populate a table en masse</Label>
+			<Label class='row-secondary' onClick='removeViews'>Remove views individually</Label>
+			<Label class='row-secondary' onClick='removeViewsEnMasse'>Remove views en masse</Label>
+			<Label class='row-primary' onClick='eventFiringTitanium'>Fire Titanium events</Label>
+			<Label class='row-primary' onClick='eventFiringBackbone'>Fire Backbone events</Label>
+		</View>
+	</Window>
+</Alloy>

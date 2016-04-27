@@ -1,0 +1,27 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	top : 4,
+	width: 160,
+	height: 48,
+	color: "white",
+	font: {
+		fontSize: 12
+	},
+	textAlign : Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+'.row-secondary':{
+	backgroundColor : '#2A4C85'
+}
+
+'.row-primary':{
+	backgroundColor : '#f47d2a'
+}
+
+
+"#label": {
+	
+}

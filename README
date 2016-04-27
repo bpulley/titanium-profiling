@@ -1,0 +1,3 @@
+Welcome to my Titanium performance profiling testbed!
+
+This is a simple test app designed to see how long various operations tie up the Titanium thread.  Note that some of these tests freeze the UI thread as well and cause the app to become unresponsive, this isn't taken into account when reporting how long these tests take.
